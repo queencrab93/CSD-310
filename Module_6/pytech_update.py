@@ -8,7 +8,7 @@ client = MongoClient(url)
 db = client.pytech 
 
 students = db.students 
-
+  
 student_list = students.find({})
 
 rachel = {
